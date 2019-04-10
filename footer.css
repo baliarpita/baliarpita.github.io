@@ -147,6 +147,10 @@
 {
   background-color:#3b5998
 }
+.social-icons a.gmail
+{
+  background-color:#f14336;
+}
 .social-icons a.github
 {
   background-color:#2ebc4f;
@@ -176,7 +180,7 @@ ul.footer-links a:hover {
     font-size: 17px;
 }
 
-div.copyright a:hover {
+div.copyright p a:hover {
     font-weight: 700;
     color: #2ebc4f;
     font-size: 18px;

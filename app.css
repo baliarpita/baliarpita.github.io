@@ -128,11 +128,13 @@ a {
     line-height: 1.25!important;
     margin-bottom: 24px!important;
     margin-top: 0;
+    color: #3a4145;
 }
 
 .workHeader {
-    margin-top: 30px;
+    margin-top: 50px;
     padding: 50px;
+    color: #acaeaf;
 }
 
 .workImage {
@@ -170,4 +172,15 @@ h2.centered.sechead {
     height: 4px;
     background: #444649;
     margin-bottom: 50px;
+}
+
+.dell{
+    width: 100px;
+    height: 100px;
+    text-align: right;
+}
+
+.flex-align-center {
+    display:flex!important;
+    align-items:center;
 }

@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="image.css" type="text/css">
     <link rel="stylesheet" href="custom-navbar.css" type="text/css">
     <link rel="stylesheet" href="portfolio.css" type="text/css">
+    <link rel="stylesheet" href="footer.css" type="text/css">
 </head>
 
 <body>
@@ -33,13 +34,13 @@
                         <a class="nav-link" href="#">About</i> <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link" href="#education">Education</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="#portfolio">Portfolio</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="assets/Arpita_Bali.pdf" target="_blank">Resume</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#education">Education</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
@@ -60,7 +61,7 @@
                 </ul>
                 <ul class="navbar-nav ml-auto w-100 justify-content-end">
                     <li class="nav-item">
-                        <a class="nav-link" href="https://www.facebook.com/arpita.bali"><i
+                        <a class="nav-link facebook" href="https://www.facebook.com/arpita.bali"><i
                                 class="fab fa-facebook-square fa-lg"></i></a>
                     </li>
                     <li class="nav-item">
@@ -125,9 +126,10 @@
 
     <div class="container">
         <h2 class="centered sechead firstsec" id="education">EDUCATION</h2>
+        <div class="header-bar centered"></div>
         <div class="row">
             <div class="col-lg-6 col-md-6">
-                <div class="flex-item-txtblock flex-item-fixed-height">
+                <div class="flex-item-txtblock flex-item-fixed-height shadow">
                     <p class="headerName small">
                         <b>
                             B.Tech in computer science engineering
@@ -149,7 +151,7 @@
                 </div>
             </div>
             <div class="col-lg-6 col-md-6">
-                <div class="flex-item-txtblock flex-item-fixed-height">
+                <div class="flex-item-txtblock flex-item-fixed-height shadow">
                     <p class="headerName small">
                         <b>
                             Masters in Information Systems
@@ -176,161 +178,212 @@
 
     <div class="container" style="margin-bottom: 30px;">
         <h2 class="centered sechead firstsec" id="portfolio">PORTFOLIO</h2>
+        <div class="header-bar centered"></div>
         <div class="row">
             <div class="col-lg-6 col-md-6">
-                <div class="container" data-toggle="modal" data-target="#cbir">
-                    <img class="img-thumbnail rounded mx-auto" src="assets/apple.jpg">
-                    <h5 class="pop1">IMAGE SEARCH ENGINE (2016)</h5>
+                <div class="container" data-toggle="modal" data-target="#cbir" style="display:block;">
+                    <figure class="tint t5 thumbnail">
+                        <img class="rounded mx-auto" src="assets/cbir2.jpg">
+                    </figure>
+                    <h5 class="caption-photo">IMAGE SEARCH ENGINE (2016)</h5>
                 </div>
             </div>
 
             <div class="col-lg-6 col-md-6">
                 <div class="container" data-toggle="modal" data-target="#yelpcamp">
-                    <img class="img-thumbnail rounded mx-auto" src="assets/apple.jpg">
-                    <h5 class="pop1">YELP CAMP (2018)</h5>
+                    <figure class="tint t4 thumbnail">
+                        <img class="rounded mx-auto" src="assets/yelpcamp.jpg">
+                    </figure>
+                    <h5 class="caption-photo">YELP CAMP (2018)</h5>
                 </div>
             </div>
 
-            <!-- <div class="col-lg-6 col-md-6">
-                <div class="container" data-toggle="modal" data-target="#cbir">
-                    <img class="img-thumbnail rounded mx-auto" src="assets/apple.jpg">
-                    <h5 class="pop1">LIFX CHROME (2016)</h5>
-                </div>
-            </div> -->
         </div>
+    </div>
 
-        <!-- Modal -->
-        <div class="modal fade in" id="cbir" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
-            aria-hidden="false">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-body">
-                        <div class="modal-closer" onclick="$('html').css('overflow', 'auto')">
-                            <button type="button" class="btn btn-warning" data-dismiss="modal">
-                                <i class="fa fa-times" aria-hidden="true" data-dismiss="modal"></i>
-                                Close
-                            </button>
-                        </div>
-                        <div class="row">
-                            <div class="col-lg-12 modal-body-text">
-                                <p class="modal-text text-white">
-                                    <b>LIFX Web Control</b> is a Minimalist Chrome Extension to control
-                                    connected
-                                    LIFX lights. I
-                                    wrote LIFX Web Control as a side project. As of today the extension has more
-                                    than a thousand
-                                    active users.
-                                </p>
-                                <p class="modal-text text-white">
-                                    <b>Roles:</b> UX Designer / Front-End Developer.
-                                    <br>
-                                    <b>Technologies:</b> HTML, CSS, jQuery / JavaScript, Chrome Extension
-                                    Development.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="row modal-link">
-                            <!-- <div class="modal-content-style"> -->
-                            <div class="col-lg-12">
-                                <a href="https://medium.com/@juanjramirez/lifx-chrome-extension-un-official-bc64669bd677#.uszhnhp4u"
-                                    target="_blank">
-                                    <div class="centered"><i class="fab fa-github fa-3x"></i>
-                                        <p> Check out project details
-                                            <br> on Github
-                                        </p>
-                                    </div>
-                                </a>
-                            </div>
-                            <!-- <div class="col-lg-12">
-                            <img src="assets/Python-Logo-PNG-Image.png" class="techlogo" width="100">
-                            <img src="assets/OpenCV_Logo.png" class="techlogo" width="100">
-                        </div> -->
-                            <!-- <div class="col-lg-12">
-                            <a href="http://whoisjuan.github.io/lifx" target="_blank">
-                                <div class="centered"><i class="fab fa-external-link-square"></i></div>
-                                <p> Visit Project
-                                    <br> Website </p>
-                            </a>
-                        </div> -->
-                            <!-- </div> -->
+    <!-- Modal -->
+    <div class="modal fade in" id="cbir" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="false">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="modal-closer" onclick="$('html').css('overflow', 'auto')">
+                        <button type="button" class="btn btn-warning" data-dismiss="modal">
+                            <i class="fa fa-times" aria-hidden="true" data-dismiss="modal"></i>
+                            Close
+                        </button>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12 modal-body-text">
+                            <p class="modal-text text-white">
+                                <b>Image Search Engine</b> is a content based image search engine.
+                                The image search engine processes and stores information about the dataset of images
+                                fed to it. Information processed is the color content and color distrubution of the
+                                image using digital image processing concepts like Histograms of a digital
+                                image and Chi-sqaured distance algorithm to find similarity between images.
+                                The image to be searched is fed to the search engine and it returns a set of 10
+                                similar images from the dataset.
+                                <br>
+                                I wrote Image search engine as a undergraduate school research project.
+                            </p>
+                            <p class="modal-text text-white">
+                                <b>Roles:</b> Product designer / Developer.
+                                <br>
+                                <b>Technologies:</b> Python, Anaconda, OpenCV
+                            </p>
                         </div>
                     </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="modal fade in" id="yelpcamp" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
-            aria-hidden="false">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-body">
-                        <div class="modal-closer" onclick="$('html').css('overflow', 'auto')">
-                            <button type="button" class="btn btn-warning" data-dismiss="modal">
-                                <i class="fa fa-times" aria-hidden="true" data-dismiss="modal"></i>
-                                Close
-                            </button>
-                        </div>
-                        <div class="row">
-                            <div class="col-lg-12 col-md-12 modal-body-text">
-                                <p class="modal-text text-white">
-                                    <b>LIFX Web Control</b> is a Minimalist Chrome Extension to control
-                                    connected
-                                    LIFX lights. I
-                                    wrote LIFX Web Control as a side project. As of today the extension has more
-                                    than a thousand
-                                    active users.
-                                </p>
-                                <p class="modal-text text-white">
-                                    <b>Roles:</b> UX Designer / Front-End Developer.
-                                    <br>
-                                    <b>Technologies:</b> HTML, CSS, jQuery / JavaScript, Chrome Extension
-                                    Development.
-                                </p>
-                            </div>
-                            <!-- <div class="col-lg-6 col-md-12 modal-body-text">
-                                <div class="container">
-                                    <!-- <div class="bar">
-                                            <p class="modal-text text-white tag" style="text-align: right">CSS</p>
-                                    </div> -->
-                                    <p class="modal-text text-white bg-light-pink">
-                                        <img src="assets/OpenCV_Logo.png " class="rounded square-170">
-                                        <img src="assets/OpenCV_Logo.png" class="rounded square-170">
+                    <div class="row modal-link">
+                        <div class="col-lg-12">
+                            <a href="https://github.com/baliarpita/CBIR" target="_blank">
+                                <div class="centered"><i class="fab fa-github fa-3x"></i>
+                                    <p> Check out project details
+                                        <br> on Github
                                     </p>
                                 </div>
-                            </div> -->
-                        </div>
-                        <div class="row modal-link">
-                            <div class="col-lg-12">
-                                <a href="https://medium.com/@juanjramirez/lifx-chrome-extension-un-official-bc64669bd677#.uszhnhp4u"
-                                    target="_blank">
-                                    <div class="centered"><i class="fab fa-github fa-3x"></i>
-                                        <p> Check out project details
-                                            <br> on Github
-                                        </p>
-                                    </div>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-12">
-                                <a href="http://whoisjuan.github.io/lifx" target="_blank">
-                                    <div class="centered"><i class="fas fa-code fa-3x"></i></div>
-                                    <p> Visit Website </p>
-                                </a>
-                            </div>
+                            </a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
+
+    <div class="modal fade in" id="yelpcamp" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+        aria-hidden="false">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="modal-closer" onclick="$('html').css('overflow', 'auto')">
+                        <button type="button" class="btn btn-warning" data-dismiss="modal">
+                            <i class="fa fa-times" aria-hidden="true" data-dismiss="modal"></i>
+                            Close
+                        </button>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 modal-body-text">
+                            <p class="modal-text text-white">
+                                <b>YelpCamp</b> is a website for blogging about treks and campgrounds.
+                                It lets users to sign up, sign in, create and edit blogs and add comments.
+                            </p>
+                            <p class="modal-text text-white">
+                                <b>Roles:</b> Product designer / Front-End Developer / Back-End Developer
+                                <br>
+                                <b>Technologies:</b> HTML, CSS, Bootstrap, JavaScript, NodeJS, 
+                                Heroku, Mongoose
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row modal-link">
+                        <div class="col-lg-12">
+                            <a href="https://github.com/baliarpita/web-dev-project-yelp-camp" target="_blank">
+                                <div class="centered"><i class="fab fa-github fa-3x"></i>
+                                    <p> Check out project details
+                                        <br> on Github
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="col-lg-12">
+                            <a href="https://damp-lake-40668.herokuapp.com/" target="_blank">
+                                <div class="centered"><i class="fas fa-code fa-3x"></i></div>
+                                <p> Visit Website </p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Site footer -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <h6>About</h6>
+                    <p class="text-justify">
+                        I'm a passionate software developer and a website development enthusiast
+                        from India who loves to create ingenious software and interaction
+                        concepts. Following my passion for logical problem solving, I pursued
+                        computer science engineering from Manipal University in India. After graduation,
+                        I worked with <b>Dell Software</b> and <b>CenturyLink</b> to gain software
+                        development experience in a corporate environment.
+                        <br>
+                        Having worked in product development
+                        companies, I worked across various software delivery platforms and I worked with
+                        various technologies. To expand my knowledge about the business processes
+                        involved in delivering technology to people, I will be pusrsuing my Masters in
+                        Information Systems from <i><b>Kelley School Of Business</b></i> at Indiana University, US.
+                    </p>
+                </div>
+
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div class="col-lg-12">
+                        <h6>Quick Links</h6>
+                        <ul class="footer-links">
+                            <li><a href="#portfolio">Portfolio</a></li>
+                            <li><a href="http://scanfcode.com/contact/">Contact Me</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-12" style="margin-top: 40px;">
+                        <h6>References</h6>
+                        <p style="padding: 0px 60px; margin-bottom: 0px;">
+                            I refered to below resources to get some
+                            <br>inspiration for styling and CSS
+                        </p>
+                        <ul class="footer-links">
+                            <li><a href="http://whoisjuan.me" target="_blank">WhoIsJuan</a></li>
+                            <li><a href="https://www.ybrikman.com/" target="_blank">Yevgeniy Brikman</a></li>
+                            <li><a href="https://codepen.io/maheshambure21/pen/QwXaRw" target="_blank">Mahesh Ambure's
+                                    CodePen</a></li>
+                            <li><a href="https://codepen.io/scanfcode/pen/MEZPNd" target="_blank">Scanfcode's
+                                    CodePen</a></li>
+                            <li><a href="https://unsplash.com/photos/PnyS8tiGdbo" target="_blank">
+                                    Isaac Sanchez's Unsplash</a></li>
+                            <li><a href="https://unsplash.com/photos/eDgUyGu93Yw" target="_blank">
+                                    Patrik Hendry's Unsplash</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+            <hr>
+        </div>
+        <div class="container copyright">
+            <div class="row">
+                <div class="col-lg-6 col-md-8 col-sm-6 col-xs-12">
+                    <p class="copyright-text">Copyright &copy; 2019 All Rights Reserved by
+                        <a href="#">Arpita Bali</a>.
+                    </p>
+                </div>
+
+                <div class="col-lg-6 col-md-4 col-sm-6 col-xs-12">
+                    <ul class="social-icons">
+                        <li><a class="facebook" href="https://www.facebook.com/arpita.bali"><i
+                                    class="fab fa-facebook-square fa-lg"></i></a></li>
+                        <li><a class="linkedin" href="https://in.linkedin.com/in/arpitabali"><i
+                                    class="fab fa-linkedin fa-lg"></i></a></li>
+                        <li><a class="github" href="https://github.com/baliarpita"><i
+                                    class="fab fa-github fa-lg"></i></a></li>
+                        <li><a class="medium" href="https://medium.com/@baliarpita"><i
+                                    class="fab fa-medium fa-lg"></i></a></li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
 
 
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-            crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-            crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

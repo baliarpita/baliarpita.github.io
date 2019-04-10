@@ -62,7 +62,7 @@ a {
 .flex-item-txtblock {
     background: #f4f3f9;
     padding: 50px;
-    margin-top: 30px;
+    /* margin-top: 30px; */
 }
 
 .flex-item-fixed-height{
@@ -161,6 +161,13 @@ h2.centered.sechead {
     color: #46356e;
 }
 
-#education{
+/* #education{
+    margin-bottom: 50px;
+} */
+
+.header-bar {
+    width: 70px;
+    height: 4px;
+    background: #444649;
     margin-bottom: 50px;
 }

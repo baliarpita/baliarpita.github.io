@@ -1,14 +1,23 @@
 .site-footer
 {
   background-color:#26272b;
-  /* background-color: rgba(253, 0, 37, .90); */
   padding:45px 0 20px;
   font-size:15px;
   line-height:24px;
   color:#737373;
-  /* color: white; */
   margin-top: 100px;
 }
+
+.site-footer p
+{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    color:#737373;
+}
+
 .site-footer hr
 {
   border-top-color:#bbb;

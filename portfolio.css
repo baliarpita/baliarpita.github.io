@@ -159,9 +159,9 @@
 
 .tint {
     position: relative;
-    float: left;
+    /* float: left; */
     margin-right: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
     cursor: pointer;
     box-shadow: rgba(0,0,0,.2) 3px 5px 5px;
   }
@@ -187,7 +187,8 @@
   .t6:before { background: rgba(255,102,0, 0.2); }
 
   .thumbnail {
-    display: block;
-    margin-bottom: 20px;
-    line-height: 1.42857143;
+    /* display: block; */
+    /* margin-bottom: 20px; */
+    /* line-height: 1.42857143; */
+    overflow: hidden;
 }

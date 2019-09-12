@@ -1,5 +1,5 @@
 body {
-    font-family: Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
     background-color: #FFFFFF;
     font-size: 16px;
     color: #acaeaf;
@@ -28,36 +28,36 @@ a {
 .border-bottom {
     border-bottom-style: solid!important;
     border-bottom-width: 1px!important;
-    border-bottom-color: rgba(0,0,0,.125)!important;
+    border-bottom-color: rgba(0, 0, 0, .125)!important;
 }
 
-#paragraph{
+#paragraph {
     color: #e1e4e8;
 }
 
-#main-background{
+#main-background {
     background-color: #2b3137;
 }
 
-.jumbotron.black-background{
+.jumbotron.black-background {
     padding-top: 120px;
     background-color: #2b3137;
 }
 
-.jumbotron h1{
-    font-family: Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+.jumbotron h1 {
+    font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
     font-weight: 500;
     line-height: 1!important;
 }
 
-.text-neutral{
+.text-neutral {
     color: #d0caca!important;
 }
 
-.jumbotron h5{
-    font-family: Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+.jumbotron h5 {
+    font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
     font-weight: normal;
-    color: hsla(0,0%,100%,.6);
+    color: hsla(0, 0%, 100%, .6);
 }
 
 /* .flex-item-container{
@@ -66,8 +66,10 @@ a {
 
 /* .flex-item-txtblock.main {
     /* border-top: 4px solid #86bc25; */
-    /* background-color: #f5f8fa; */
-    /* padding-top: 60px;
+
+/* background-color: #f5f8fa; */
+
+/* padding-top: 60px;
 }  */
 
 .flex-item-txtblock {
@@ -76,7 +78,7 @@ a {
     /* margin-top: 30px; */
 }
 
-.flex-item-fixed-height{
+.flex-item-fixed-height {
     min-height: 620px;
 }
 
@@ -106,12 +108,11 @@ a {
     font-size: 0.95rem;
 }
 
-.headerName.small{
-    
+.headerName.small {
     font-size: 18px;
 }
 
-.headerlead.small{
+.headerlead.small {
     border-top: none;
     font-size: 1.0rem;
 }
@@ -134,7 +135,7 @@ a {
 
 .workHeaderName {
     font-size: 22px!important;
-    font-family: Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
     font-weight: 400!important;
     line-height: 1.25!important;
     margin-bottom: 24px!important;
@@ -185,13 +186,40 @@ h2.centered.sechead {
     margin-bottom: 50px;
 }
 
-.dell{
+.dell {
     width: 100px;
     height: 100px;
     text-align: right;
 }
 
 .flex-align-center {
-    display:flex!important;
-    align-items:center;
+    display: flex!important;
+    align-items: center;
+}
+
+.contactBar {
+    background-color: rgba(232, 53, 86, 1);
+    opacity: 0.75;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 1.0rem;
+    line-height: 25px;
+    padding: 12px;
+    min-width: 1110px;
+    max-width: 1110px;
+}
+
+.shadowEffect3d {
+    -webkit-box-shadow: 0 17px 6px -6px #777;
+    -moz-box-shadow: 0 17px 6px -6px #777;
+    box-shadow: 0 17px 6px -6px #777;
+}
+
+.contactDetails a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.travelBlog {
+    padding-bottom: 30px;
 }

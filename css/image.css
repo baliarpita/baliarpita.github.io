@@ -1,5 +1,5 @@
 .square-img {
-    width: 35%!important;
+    width: 26%!important;
 }
 
 .bg-white {
@@ -31,4 +31,8 @@ img {
 img.center {
     display: block;
     margin: 0 auto;
+}
+
+.blogImage {
+    width: 13%;;
 }

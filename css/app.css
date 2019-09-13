@@ -205,8 +205,8 @@ h2.centered.sechead {
     font-size: 1.0rem;
     line-height: 25px;
     padding: 12px;
-    min-width: 1110px;
-    max-width: 1110px;
+    /* min-width: 1110px;
+    max-width: 1110px; */
 }
 
 .shadowEffect3d {

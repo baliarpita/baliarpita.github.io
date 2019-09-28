@@ -36,3 +36,11 @@ img.center {
 .blogImage {
     width: 13%;;
 }
+
+#firstImage {
+    width: 666px;
+}
+
+#photoGallery {
+    padding: 20px 0px;
+}

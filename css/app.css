@@ -222,3 +222,18 @@ h2.centered.sechead {
     padding-right: 30px;
     margin-top: 5px;
 }
+
+.capabilities-large-text-block {
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 0px;
+    text-align: left;
+}
+
+.capabilities-small-text-block {
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 5px;
+    text-align: left;
+}

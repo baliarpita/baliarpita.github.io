@@ -210,6 +210,12 @@ h2.centered.sechead {
     background: rgb(232 53 86 / 63%);
 }
 
+.capabilities-bar {
+    width: 200px;
+    height: 1.5px;
+    background: rgb(232 53 86 / 63%);
+}
+
 .capabilities-large-text-block {
     padding-top: 30px;
     padding-left: 30px;

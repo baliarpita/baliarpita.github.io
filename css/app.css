@@ -218,7 +218,8 @@ h2.centered.sechead {
 
 .side-bar {
     height: 20px;
-    background: rgb(232 53 86 / 63%);
+    background: #2b3137;
+    opacity: 70%;
 }
 
 .capabilities-large-text-block {

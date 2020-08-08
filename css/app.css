@@ -60,22 +60,9 @@ a {
     color: hsla(0, 0%, 100%, .6);
 }
 
-/* .flex-item-container{
-    background-color: #f5f8fa;
-} */
-
-/* .flex-item-txtblock.main {
-    /* border-top: 4px solid #86bc25; */
-
-/* background-color: #f5f8fa; */
-
-/* padding-top: 60px;
-}  */
-
 .flex-item-txtblock {
     background: #f4f3f9;
     padding: 50px;
-    /* margin-top: 30px; */
 }
 
 .flex-item-fixed-height {
@@ -85,7 +72,6 @@ a {
 .headerName {
     padding-top: 0px;
     font-size: 2.5rem;
-    /* color: #24292e; */
     color: #3a4145;
     font-weight: 400;
     text-align: center;
@@ -175,22 +161,12 @@ h2.centered.sechead {
     color: #46356e;
 }
 
-/* #education{
-    margin-bottom: 50px;
-} */
-
 .header-bar {
     width: 70px;
     height: 4px;
     background: #444649;
     margin-bottom: 50px;
 }
-
-.about-bar {
-    width: 70px;
-    height: 2px;
-    background: #444649;
-} 
 
 .dell {
     width: 100px;
@@ -211,8 +187,6 @@ h2.centered.sechead {
     font-size: 1.0rem;
     line-height: 25px;
     padding: 12px;
-    /* min-width: 1110px;
-    max-width: 1110px; */
 }
 
 .shadowEffect3d {
@@ -229,3 +203,9 @@ h2.centered.sechead {
 .travelBlog {
     padding-bottom: 30px;
 }
+
+.about-bar {
+    width: 100px;
+    height: 1.5px;
+    background: rgb(232 53 86 / 63%);
+} 

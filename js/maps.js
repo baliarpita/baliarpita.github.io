@@ -1,3 +1,4 @@
+// Map style credit: Ashok Patel https://ashok133.github.io/contact.html
 function initMap() {
     var styledMapType = new google.maps.StyledMapType(
         [

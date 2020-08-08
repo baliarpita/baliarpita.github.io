@@ -1,6 +1,4 @@
-// google.maps.event.addDomListener(window, 'load', init);
-
-function init() {
+function initMap() {
     var styledMapType = new google.maps.StyledMapType(
         [
             {

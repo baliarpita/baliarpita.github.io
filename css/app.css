@@ -216,8 +216,13 @@ h2.centered.sechead {
     background: rgb(232 53 86 / 63%);
 }
 
+.side-bar {
+    width: 2px;
+    background: rgb(232 53 86 / 63%);
+}
+
 .capabilities-large-text-block {
-    padding-top: 30px;
+    padding-top: 20px;
     padding-left: 30px;
     padding-right: 30px;
     margin-bottom: 0px;

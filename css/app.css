@@ -249,3 +249,7 @@ h2.centered.sechead {
     padding-right: 30px;
     margin-top: 5px;
 }
+
+.float-right {
+    float: right;
+}

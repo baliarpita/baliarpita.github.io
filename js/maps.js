@@ -165,7 +165,7 @@ function initMap() {
     var myLatlng = new google.maps.LatLng(39.17, -86.49); // Bloomington, Indiana
 
     var mapOptions = {
-        zoom: 5,
+        zoom: 4,
         disableDefaultUI: true,
         center: myLatlng
     };

@@ -180,12 +180,12 @@ function initMap() {
         optimized: false
     });
 
-    google.maps.event.addListener(marker, 'click', (function (marker, i) {
-        return function () {
-            infowindow.setContent(locations[i][0]);
-            infowindow.open(map, marker);
-        }
-    })(marker, i));
+    // google.maps.event.addListener(marker, 'click', (function (marker, i) {
+    //     return function () {
+    //         infowindow.setContent(locations[i][0]);
+    //         infowindow.open(map, marker);
+    //     }
+    // })(marker, i));
 
     marker.setMap(map);
     map.mapTypes.set('styled_map', styledMapType);

@@ -208,4 +208,17 @@ h2.centered.sechead {
     width: 100px;
     height: 1.5px;
     background: rgb(232 53 86 / 63%);
-} 
+}
+
+.about-large-text-block {
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 0px;
+}
+
+.about-small-text-box {
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 5px;
+}

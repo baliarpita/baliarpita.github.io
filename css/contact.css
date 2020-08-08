@@ -7,7 +7,7 @@
   .contact-anchor{
     padding: 10px 15px;
     font-family: Montserrat,helvetica neue,Helvetica,Arial,sans-serif;
-    color: #2e2e2e;
+    color: #2e2e2e!important;
     letter-spacing: .01rem;
     font-size: 100%;
     /* font-weight: 700; */

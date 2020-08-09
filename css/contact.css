@@ -4,7 +4,7 @@
     background-color: rgb(229, 227, 223);
 }
 
-.contact-anchor {
+.contact-anchor, .contact-anchor a {
     padding: 10px 15px;
     font-family: Montserrat, helvetica neue, Helvetica, Arial, sans-serif;
     color: #2e2e2e!important;
@@ -29,7 +29,7 @@ a #get-resume:hover {
 
 a #get-resume {
     color: white;
-    height: 4em;
+    height: 3em;
     padding: 1.5em auto;
     margin: 1em auto;
     background-color: #FEB1C0;

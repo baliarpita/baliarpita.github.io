@@ -2,11 +2,11 @@
     width: 100%;
     height: 300px;
     background-color: rgb(229, 227, 223);
-  }
+}
 
-  .contact-anchor{
+.contact-anchor {
     padding: 10px 15px;
-    font-family: Montserrat,helvetica neue,Helvetica,Arial,sans-serif;
+    font-family: Montserrat, helvetica neue, Helvetica, Arial, sans-serif;
     color: #2e2e2e!important;
     letter-spacing: .01rem;
     font-size: 100%;
@@ -18,4 +18,28 @@
 .contact {
     padding: 50px;
     height: 300px;
+}
+
+/* Button from: https://codepen.io/ichoosesunny/pen/YGzRaJ */
+
+#get-resume:hover {
+    letter-spacing: 0.8em;
+    background-color: #F08C99;
+}
+
+#get-resume {
+    color: white;
+}
+
+button {
+    height: 4em;
+    width: 10%;
+    padding: 1.5em auto;
+    margin: 1em auto;
+    background-color: #FEB1C0;
+    border: none;
+    border-radius: 3px;
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+    transition: all 0.2s cubic-bezier(.4, 0, .2, 1);
 }

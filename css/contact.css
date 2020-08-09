@@ -29,9 +29,6 @@ a #get-resume:hover {
 
 a #get-resume {
     color: white;
-}
-
-button #get-resume{
     height: 4em;
     width: 10%;
     padding: 1.5em auto;
@@ -43,3 +40,16 @@ button #get-resume{
     letter-spacing: 0.5em;
     transition: all 0.2s cubic-bezier(.4, 0, .2, 1);
 }
+
+/* button {
+    height: 4em;
+    width: 10%;
+    padding: 1.5em auto;
+    margin: 1em auto;
+    background-color: #FEB1C0;
+    border: none;
+    border-radius: 3px;
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+    transition: all 0.2s cubic-bezier(.4, 0, .2, 1);
+} */

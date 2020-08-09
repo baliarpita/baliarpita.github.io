@@ -31,7 +31,7 @@ a #get-resume {
     color: white;
 }
 
-button {
+button #get-resume{
     height: 4em;
     width: 10%;
     padding: 1.5em auto;
